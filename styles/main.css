@@ -8,6 +8,16 @@ html{
 
 header{
     display: flex; /* displays the elements next to each other. */
-    align-items: center;
-    justify-content: space-between;
+    align-items: center; /*Positions all elements in the center in relation to the space of the father element */
+    justify-content: space-between; /* Generates the space by placing one item on the left and the other on the right. */
+}
+
+.red{
+    background-color: red;
+}
+
+.content{
+    width: 90%;
+    max-width: 1100%;
+    margin: 0 auto;
 }
