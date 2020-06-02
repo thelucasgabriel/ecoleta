@@ -3,6 +3,11 @@
     --title-color: #322153;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html{
     font-family: 'Roboto', sans-serif;
 }
@@ -17,6 +22,11 @@ a {
     text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
 #page-home{
     height: 100vh;
     background: url('../assets/home-background.svg') no-repeat;
@@ -27,7 +37,10 @@ a {
 #page-home .content{
     width: 90%;
     max-width: 1100%;
+    height: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -56,9 +69,14 @@ a {
 
 #page-home main{
     max-width: 560px;
+
+    flex: 1; /* It fills the space that was not occupied by the header and main, between the two. */
+
+    display: flex; /* Position the elements side by side.*/
+    flex-direction: column;
+    justify-content: center;
 }
 
 #page-home main h1{
     font-size: 54px;
-    color: var(--title-color);
 }
