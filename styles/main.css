@@ -1,23 +1,64 @@
 @charset "UTF-8";
+:root{
+    --title-color: #322153;
+}
+
 html{
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background: #f0f0f5;
+}
 /* Box Model 
 */
 
-header{
+a {
+    text-decoration: none;
+}
+
+#page-home{
+    height: 100vh;
+    background: url('../assets/home-background.svg') no-repeat;
+    background-position: 35vw bottom;
+}
+
+
+#page-home .content{
+    width: 90%;
+    max-width: 1100%;
+    margin: 0 auto;
+}
+
+
+#page-home header{
+
+    margin-top: 48px;
     display: flex; /* displays the elements next to each other. */
     align-items: center; /*Positions all elements in the center in relation to the space of the father element */
     justify-content: space-between; /* Generates the space by placing one item on the left and the other on the right. */
 }
 
-.red{
-    background-color: red;
+#page-home header a{
+    display: flex; /*In this way, it will be possible to align the img and a elements in the same line and side by side. */
+    color: var(--title-color);
+    font-weight: 700; /* Font weight, through which you can change styles, between italics, bold, etc. */
+    
 }
 
-.content{
-    width: 90%;
-    max-width: 1100%;
-    margin: 0 auto;
+#page-home header a span{
+    margin-right: 16px;
+    display: flex; /*In order to display the image that way. */
+    background-image: url('../assets/log-in.svg');
+    width: 20px;
+    height: 20px;
+}
+
+#page-home main{
+    max-width: 560px;
+}
+
+#page-home main h1{
+    font-size: 54px;
+    color: var(--title-color);
 }
