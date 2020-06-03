@@ -1,0 +1,13 @@
+Tema utilizado no Visual Studio
+Launchbase
+https://marketplace.visualstudio.com/items?itemName=maykbrito.theme-launchbase
+
+
+Cronograma
+https://www.notion.so/nextlevelweekstarter/Dia-1-7c8a1a9a6df547058f1473f899a3b9c4
+
+ícones Utilizados
+https://drive.google.com/file/d/1faqg6B_nlDEiatd7OA78sM-8GaD7ave3/view
+
+Modelagem no Figma
+https://www.figma.com/file/Byw4X5etg8VCmezueyhzkC/Ecoleta-(Starter)?node-id=1%3A8
