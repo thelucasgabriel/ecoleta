@@ -48,3 +48,67 @@ function getCities(event){
 document
     .querySelector("select[name=uf]")
     .addEventListener("change", getCities) //Waiting for events to occur, such as page loading, clicks, among others.
+
+
+    // Collection items
+
+    // get all li
+
+    const itemsToCollect = document.querySelectorAll(".items-grid li")
+
+    for (const item of itemsToCollect){
+        item.addEventListener("click", handleSelectedItem)
+    
+    }
+
+    //Formatting the item fields in JavaScript
+
+
+     //Update the hidden field with selected items
+
+    const collectedItems = document.querySelector("input[name=items]")
+
+    let selectedItems = []
+
+    function handleSelectedItem(event){
+        const itemLi = event.target
+        //add or remove a class with javascript
+        itemLi.classList.toggle("selected")
+        const itemId = event.target.dataset.id
+
+        
+        //Verify if selected items exist
+        //Get the selected items
+
+
+        const alreadySelected = selectedItems.findIndex( item => {
+            const itemFound =  item == itemId // It's ll` true or false.
+            return itemFound
+        })
+
+       
+
+        //se já estiver selecionado, 
+        // If alredy selected
+
+        if(alreadySelected >= 0){
+           //Remove from selection
+           const filteredItems = selectedItems.filter( item => {
+               const itemIsDifferent = item != itemId //false
+               return itemIsDifferent
+           })
+
+           selectedItems = filteredItems
+        } else{
+             //If not yet selected
+             //Add selection
+
+             selectedItems.push(itemId)
+
+        }
+
+
+        collectedItems.value = selectedItems
+
+    
+    }
