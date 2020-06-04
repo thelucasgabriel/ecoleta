@@ -4,7 +4,7 @@
   "description": "Aplicação desenvolvida durante a 1ª Next Level Week promovida pela Rockeseat e ministrada por Diego Fernandes e Mayk Brito.",
   "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
