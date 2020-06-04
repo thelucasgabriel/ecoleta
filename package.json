@@ -1,0 +1,23 @@
+{
+  "name": "ecoleta",
+  "version": "1.0.0",
+  "description": "Aplicação desenvolvida durante a 1ª Next Level Week promovida pela Rockeseat e ministrada por Diego Fernandes e Mayk Brito.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelucasgabriel/ecoleta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thelucasgabriel/ecoleta/issues"
+  },
+  "homepage": "https://github.com/thelucasgabriel/ecoleta#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
