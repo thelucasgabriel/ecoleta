@@ -11,3 +11,6 @@ https://drive.google.com/file/d/1faqg6B_nlDEiatd7OA78sM-8GaD7ave3/view
 
 Modeling in figma
 https://www.figma.com/file/Byw4X5etg8VCmezueyhzkC/Ecoleta-(Starter)?node-id=1%3A8
+
+Back-end development schedule
+https://www.notion.so/Back-end-a5747fd6bfa34e799e6e0ded51f5ec63
