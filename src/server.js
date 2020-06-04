@@ -1,12 +1,14 @@
 const express = require("express")
 const server = express()
 
-//configurar caminhos da aplicação
+// Setting appltication paths
 
-// página inicial
+// inicial page
 
+//req: Requisition
+//res: Answer
 server.get("/", (req, res) => {
-
+    res.sendFile(__dirname + "/views/index.html")
 })
 
 
