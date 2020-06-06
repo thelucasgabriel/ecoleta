@@ -8,7 +8,7 @@ const db = new sqlite3.Database("./src/database/database.db")
 module.exports = db
 
 //Use the database object for our operations
-// db.serialize(() => {
+db.serialize(() => {
     
     // With SQL commands I `ll:
 
@@ -72,7 +72,7 @@ module.exports = db
 
     //4. Delete a data from the table
 
-    // db.run("DELETE FROM places WHERE id = ?", [1], function(err){
+    // db.run("DELETE FROM places WHERE id = ?", [2], function(err){
 
     //     if(err){
     //         return console.log(err)
@@ -82,5 +82,5 @@ module.exports = db
 
     // })
 
-//})
+})
 

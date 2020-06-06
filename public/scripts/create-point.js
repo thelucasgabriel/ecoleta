@@ -76,6 +76,8 @@ document
         itemLi.classList.toggle("selected")
         const itemId = event.target.dataset.id
 
+       // console.log('ITEM ID:',itemId)
+
         
         //Verify if selected items exist
         //Get the selected items
